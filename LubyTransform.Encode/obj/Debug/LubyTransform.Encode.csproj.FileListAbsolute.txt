@@ -12,3 +12,10 @@ D:\FountainCode\LubyTransform.Encode\bin\Debug\Entities.pdb
 D:\FountainCode\LubyTransform.Encode\obj\Debug\ResolveAssemblyReference.cache
 D:\FountainCode\LubyTransform.Encode\obj\Debug\LubyTransform.Encode.dll
 D:\FountainCode\LubyTransform.Encode\obj\Debug\LubyTransform.Encode.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Encode\bin\Debug\LubyTransform.Encode.dll
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Encode\bin\Debug\LubyTransform.Encode.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Encode\bin\Debug\Entities.dll
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Encode\bin\Debug\Entities.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Encode\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Encode\obj\Debug\LubyTransform.Encode.dll
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Encode\obj\Debug\LubyTransform.Encode.pdb

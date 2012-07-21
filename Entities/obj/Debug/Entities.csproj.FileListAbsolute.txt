@@ -8,3 +8,8 @@ D:\FountainCode\Entities\bin\Debug\Entities.pdb
 D:\FountainCode\Entities\obj\Debug\ResolveAssemblyReference.cache
 D:\FountainCode\Entities\obj\Debug\Entities.dll
 D:\FountainCode\Entities\obj\Debug\Entities.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\Entities\bin\Debug\Entities.dll
+C:\Users\Omar\Desktop\Git\FountainCode\Entities\bin\Debug\Entities.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Desktop\Git\FountainCode\Entities\obj\Debug\Entities.dll
+C:\Users\Omar\Desktop\Git\FountainCode\Entities\obj\Debug\Entities.pdb

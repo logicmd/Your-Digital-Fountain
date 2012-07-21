@@ -24,7 +24,7 @@
 
         #region IDecode
 
-        byte[] IDecode.Decode(IEnumerable<Drop> goblet, int blocksCount, int chunkSize, int fileSize)
+        byte[] IDecode.Decode(IList<Drop> goblet, int blocksCount, int chunkSize, int fileSize)
         {
             var matrix = BuildMatrix(goblet, blocksCount, chunkSize);
             matrixSolver.Solve(matrix);
@@ -43,7 +43,7 @@
 
         #region Private Methods
 
-        private int[,] BuildMatrix(IEnumerable<Drop> goblet, int blocksCount, int chunkSize)
+        private int[,] BuildMatrix(IList<Drop> goblet, int blocksCount, int chunkSize)
         {
             var rowsCount = goblet.Count() * chunkSize;
             var columnsCount = (blocksCount * chunkSize) + 1;
@@ -51,7 +51,7 @@
 
             for (int dropIdx = 0; dropIdx < goblet.Count(); dropIdx++)
             {
-                var drop = goblet.ElementAt(dropIdx);
+                var drop = goblet[dropIdx];
 
                 for (int i = 0; i < chunkSize; i++)
                 {

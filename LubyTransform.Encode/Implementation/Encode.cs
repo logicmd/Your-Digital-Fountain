@@ -9,7 +9,7 @@
     {
         #region Member Variables
 
-        readonly IEnumerable<byte[]> blocks;
+        readonly IList<byte[]> blocks;
         readonly int degree;
         readonly Random rand;
         readonly int fileSize;
@@ -43,7 +43,7 @@
             }
             else
             {
-                data = blocks.ElementAt(selectedParts[0]);
+                data = blocks[selectedParts[0]];
             }
 
             return new Drop { SelectedParts = selectedParts, Data = data };
@@ -68,11 +68,12 @@
 
         #region Private Methods
 
-        private IEnumerable<byte[]> CreateBlocks(byte[] file)
+        private IList<byte[]> CreateBlocks(byte[] file)
         {
             var size = chunkSize;
             var blocksCount = Math.Ceiling((decimal)file.Length / size);
             var remainingSize = file.Length;
+            var blocks = new List<byte[]>();
 
             for (int i = 0; i < blocksCount; i++)
             {
@@ -89,15 +90,17 @@
 
                 if (block.Length >= chunkSize)
                 {
-                    yield return block;
+                    blocks.Add(block);
                 }
                 else
                 {
                     var chunk = new byte[chunkSize];
                     Array.Copy(block, 0, chunk, 0, block.Length);
-                    yield return chunk;
+                    blocks.Add(chunk);
                 }
             }
+
+            return blocks;
         }
 
         private int[] GetSelectedParts()
@@ -119,7 +122,7 @@
             return selectedParts.Keys.ToArray();
         }
 
-        private byte[] CreateDropData(IList<int> selectedParts, IEnumerable<byte[]> blocks, int chunkSize)
+        private byte[] CreateDropData(IList<int> selectedParts, IList<byte[]> blocks, int chunkSize)
         {
             var data = new byte[chunkSize];
 
@@ -131,14 +134,14 @@
             return data;
         }
 
-        private byte XOROperation(int idx, IList<int> selectedParts, IEnumerable<byte[]> blocks)
+        private byte XOROperation(int idx, IList<int> selectedParts, IList<byte[]> blocks)
         {
-            var selectedBlock = blocks.ElementAt(selectedParts[0]);
+            var selectedBlock = blocks[selectedParts[0]];
             byte result = selectedBlock[idx];
 
             for (int i = 1; i < selectedParts.Count; i++)
             {
-                result ^= blocks.ElementAt(selectedParts[i])[idx];
+                result ^= blocks[selectedParts[i]][idx];
             }
 
             return result;

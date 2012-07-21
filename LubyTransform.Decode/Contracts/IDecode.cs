@@ -5,6 +5,6 @@
 
     public interface IDecode
     {
-        byte[] Decode(IEnumerable<Drop> goblet, int blocksCount, int chunkSize, int fileSize);
+        byte[] Decode(IList<Drop> goblet, int blocksCount, int chunkSize, int fileSize);
     }
 }

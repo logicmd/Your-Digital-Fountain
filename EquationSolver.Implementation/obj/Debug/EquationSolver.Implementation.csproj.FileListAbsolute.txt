@@ -5,3 +5,10 @@ D:\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Contracts
 D:\FountainCode\EquationSolver.Implementation\obj\Debug\ResolveAssemblyReference.cache
 D:\FountainCode\EquationSolver.Implementation\obj\Debug\EquationSolver.Implementation.dll
 D:\FountainCode\EquationSolver.Implementation\obj\Debug\EquationSolver.Implementation.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Implementation.dll
+C:\Users\Omar\Desktop\Git\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Implementation.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Contracts.dll
+C:\Users\Omar\Desktop\Git\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Contracts.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\EquationSolver.Implementation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Desktop\Git\FountainCode\EquationSolver.Implementation\obj\Debug\EquationSolver.Implementation.dll
+C:\Users\Omar\Desktop\Git\FountainCode\EquationSolver.Implementation\obj\Debug\EquationSolver.Implementation.pdb

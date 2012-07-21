@@ -10,3 +10,15 @@ D:\FountainCode\Server.Services\obj\Debug\Server.Services.dll
 D:\FountainCode\Server.Services\obj\Debug\Server.Services.pdb
 D:\FountainCode\Server.Services\bin\Debug\LubyTransform.Encode.dll
 D:\FountainCode\Server.Services\bin\Debug\LubyTransform.Encode.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\bin\Debug\Server.Services.dll
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\bin\Debug\Server.Services.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\bin\Debug\Entities.dll
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\bin\Debug\LubyTransform.Encode.dll
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\bin\Debug\Entities.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\bin\Debug\LubyTransform.Encode.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\obj\Debug\Server.Services.Resources.Resources.resources
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\obj\Debug\Server.Services.dll
+C:\Users\Omar\Desktop\Git\FountainCode\Server.Services\obj\Debug\Server.Services.pdb

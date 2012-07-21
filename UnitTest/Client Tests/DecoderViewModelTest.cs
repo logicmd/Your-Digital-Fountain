@@ -25,7 +25,7 @@ namespace UnitTest
             decoderViewModel.StartReceiving.Execute(null);
 
             //Assert
-            decodeMock.Verify(m => m.Decode(It.IsAny<IEnumerable<Entities.Drop>>(), It.IsAny<int>(), It.IsAny<int>(), It.IsAny<int>()), Times.Once());
+            decodeMock.Verify(m => m.Decode(It.IsAny<IList<Entities.Drop>>(), It.IsAny<int>(), It.IsAny<int>(), It.IsAny<int>()), Times.Once());
         }
     }
 }

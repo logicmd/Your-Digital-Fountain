@@ -19,7 +19,7 @@ namespace UnitTests
             //Arrange
             IMatrixSolver matrixSolver = new MatrixSolver();
             Decode_Accessor target = new Decode_Accessor(matrixSolver);
-            IEnumerable<Drop> drops = new Drop[3]
+            IList<Drop> drops = new Drop[3]
             {
                 new Drop(){SelectedParts=new int[2]{0,1},Data=new byte[2]{1,2}},
                 new Drop(){SelectedParts=new int[2]{0,2},Data=new byte[2]{3,4}},

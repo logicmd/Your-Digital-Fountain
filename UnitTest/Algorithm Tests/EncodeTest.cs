@@ -27,7 +27,7 @@ namespace UnitTests
             var privateAccessor = new Encode_Accessor(file);
             int idx = 0;
             IList<int> selectedParts = new List<int> { 1, 2, 3 };
-            IEnumerable<byte[]> blocks = new List<byte[]> 
+            IList<byte[]> blocks = new List<byte[]> 
             {
                 new byte[4]{1,0,0,0},
                 new byte[4]{1,0,0,0},
@@ -49,7 +49,7 @@ namespace UnitTests
             //Arrange
             var privateAccessor = new Encode_Accessor(file);
             IList<int> selectedParts = new List<int> { 0, 1, 2 };
-            IEnumerable<byte[]> blocks = new List<byte[]> 
+            IList<byte[]> blocks = new List<byte[]> 
             {
                 new byte[2]{0,0},
                 new byte[2]{0,1},

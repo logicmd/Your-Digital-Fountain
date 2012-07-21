@@ -4,7 +4,7 @@ namespace Entities
 {
     public class Drop
     {
-        public IEnumerable<int> SelectedParts { get; set; }
+        public IList<int> SelectedParts { get; set; }
         public byte[] Data { get; set; }
     }
 }

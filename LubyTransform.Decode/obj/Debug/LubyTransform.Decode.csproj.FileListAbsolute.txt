@@ -16,3 +16,12 @@ D:\FountainCode\LubyTransform.Decode\obj\Debug\LubyTransform.Decode.dll
 D:\FountainCode\LubyTransform.Decode\obj\Debug\LubyTransform.Decode.pdb
 D:\FountainCode\LubyTransform.Decode\bin\Debug\EquationSolver.Contracts.dll
 D:\FountainCode\LubyTransform.Decode\bin\Debug\EquationSolver.Contracts.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\bin\Debug\LubyTransform.Decode.dll
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\bin\Debug\LubyTransform.Decode.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\bin\Debug\Entities.dll
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\bin\Debug\EquationSolver.Contracts.dll
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\bin\Debug\Entities.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\bin\Debug\EquationSolver.Contracts.pdb
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\obj\Debug\LubyTransform.Decode.dll
+C:\Users\Omar\Desktop\Git\FountainCode\LubyTransform.Decode\obj\Debug\LubyTransform.Decode.pdb
