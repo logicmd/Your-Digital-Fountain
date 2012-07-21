@@ -1,0 +1,12 @@
+D:\FountainCode\Server.Host\bin\Debug\Server.Host.exe.config
+D:\FountainCode\Server.Host\bin\Debug\Server.Host.exe
+D:\FountainCode\Server.Host\bin\Debug\Server.Host.pdb
+D:\FountainCode\Server.Host\bin\Debug\Server.Services.dll
+D:\FountainCode\Server.Host\bin\Debug\Entities.dll
+D:\FountainCode\Server.Host\bin\Debug\LubyTransform.Encode.dll
+D:\FountainCode\Server.Host\bin\Debug\Server.Services.pdb
+D:\FountainCode\Server.Host\bin\Debug\Entities.pdb
+D:\FountainCode\Server.Host\bin\Debug\LubyTransform.Encode.pdb
+D:\FountainCode\Server.Host\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FountainCode\Server.Host\obj\x86\Debug\Server.Host.exe
+D:\FountainCode\Server.Host\obj\x86\Debug\Server.Host.pdb

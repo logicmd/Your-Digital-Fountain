@@ -1,0 +1,10 @@
+D:\NTP\Projects\FountainCode\Entities\bin\Debug\Entities.dll
+D:\NTP\Projects\FountainCode\Entities\bin\Debug\Entities.pdb
+D:\NTP\Projects\FountainCode\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\NTP\Projects\FountainCode\Entities\obj\Debug\Entities.dll
+D:\NTP\Projects\FountainCode\Entities\obj\Debug\Entities.pdb
+D:\FountainCode\Entities\bin\Debug\Entities.dll
+D:\FountainCode\Entities\bin\Debug\Entities.pdb
+D:\FountainCode\Entities\obj\Debug\ResolveAssemblyReference.cache
+D:\FountainCode\Entities\obj\Debug\Entities.dll
+D:\FountainCode\Entities\obj\Debug\Entities.pdb

@@ -1,0 +1,5 @@
+D:\FountainCode\EquationSolver\bin\Debug\EquationSolver.Contracts.dll
+D:\FountainCode\EquationSolver\bin\Debug\EquationSolver.Contracts.pdb
+D:\FountainCode\EquationSolver\obj\Debug\ResolveAssemblyReference.cache
+D:\FountainCode\EquationSolver\obj\Debug\EquationSolver.Contracts.dll
+D:\FountainCode\EquationSolver\obj\Debug\EquationSolver.Contracts.pdb

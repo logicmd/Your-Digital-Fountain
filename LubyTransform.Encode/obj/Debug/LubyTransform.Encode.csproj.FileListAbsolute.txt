@@ -1,0 +1,14 @@
+D:\NTP\Projects\FountainCode\LubyTransform.Encode\bin\Debug\LubyTransform.Encode.dll
+D:\NTP\Projects\FountainCode\LubyTransform.Encode\bin\Debug\LubyTransform.Encode.pdb
+D:\NTP\Projects\FountainCode\LubyTransform.Encode\bin\Debug\Entities.dll
+D:\NTP\Projects\FountainCode\LubyTransform.Encode\bin\Debug\Entities.pdb
+D:\NTP\Projects\FountainCode\LubyTransform.Encode\obj\Debug\ResolveAssemblyReference.cache
+D:\NTP\Projects\FountainCode\LubyTransform.Encode\obj\Debug\LubyTransform.Encode.dll
+D:\NTP\Projects\FountainCode\LubyTransform.Encode\obj\Debug\LubyTransform.Encode.pdb
+D:\FountainCode\LubyTransform.Encode\bin\Debug\LubyTransform.Encode.dll
+D:\FountainCode\LubyTransform.Encode\bin\Debug\LubyTransform.Encode.pdb
+D:\FountainCode\LubyTransform.Encode\bin\Debug\Entities.dll
+D:\FountainCode\LubyTransform.Encode\bin\Debug\Entities.pdb
+D:\FountainCode\LubyTransform.Encode\obj\Debug\ResolveAssemblyReference.cache
+D:\FountainCode\LubyTransform.Encode\obj\Debug\LubyTransform.Encode.dll
+D:\FountainCode\LubyTransform.Encode\obj\Debug\LubyTransform.Encode.pdb

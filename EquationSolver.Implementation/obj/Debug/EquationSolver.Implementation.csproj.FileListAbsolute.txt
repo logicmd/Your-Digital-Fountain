@@ -1,0 +1,7 @@
+D:\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Implementation.dll
+D:\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Implementation.pdb
+D:\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Contracts.dll
+D:\FountainCode\EquationSolver.Implementation\bin\Debug\EquationSolver.Contracts.pdb
+D:\FountainCode\EquationSolver.Implementation\obj\Debug\ResolveAssemblyReference.cache
+D:\FountainCode\EquationSolver.Implementation\obj\Debug\EquationSolver.Implementation.dll
+D:\FountainCode\EquationSolver.Implementation\obj\Debug\EquationSolver.Implementation.pdb
