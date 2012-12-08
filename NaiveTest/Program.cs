@@ -10,11 +10,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
+using System.Threading;
 
 
 namespace NaiveTest
 {
-    class Program
+    class LT
     {
         /*
          * TODO:
@@ -24,9 +25,21 @@ namespace NaiveTest
          */
 
 
+        String message;
+        int overHead;
+        int loop;
+        int p = 0;
+
+        LT(String message, int overHead, int loop)
+        {
+            this.message = message;
+            this.overHead = overHead;
+            this.loop = loop;
+        }
+
         static char Random()
         {
-            long tick = DateTime.Now.Ticks; 
+            long tick = DateTime.Now.Ticks;
             // 26 alphabetical + 10 number
             Random ram = new Random((int)(tick & 0xffffffffL) | (int)(tick >> 32));
             char r = (char) ram.Next(36);
@@ -50,15 +63,15 @@ namespace NaiveTest
             return sb.ToString();
         }
 
-        static int Codec(String sentMessage, int overHead)
+        int Codec(String sentMessage, int overHead)
         {
             byte[] file = Encoding.ASCII.GetBytes(sentMessage);
             IEncode encoder = new Encode(file);
             int blocksCount = encoder.NumberOfBlocks;
-            #if (DEBUG)
+#if (DEBUG)
             Console.WriteLine("Before encode: " + file.GetLength(0));
             Console.WriteLine("After encode: " + blocksCount + " + " + overHead);
-            #endif
+#endif
             IList<Drop> drops = new List<Drop>();
             for (int i = 0; i < blocksCount + overHead; i++)
             {
@@ -75,16 +88,16 @@ namespace NaiveTest
             int isDecode;
             if (sentMessage.Equals(receievdMessage))
             {
-                #if (DEBUG)
+#if (DEBUG)
                 Console.WriteLine("Decode Successfully!");
-                #endif
+#endif
                 isDecode = 1;
             }
             else
             {
-                #if (DEBUG)
+#if (DEBUG)
                 Console.WriteLine("Decode Unsuccessfully =.=");
-                #endif
+#endif
                 isDecode = 0;
             }
             return isDecode;
@@ -93,16 +106,36 @@ namespace NaiveTest
         [DllImport("kernel32.dll")]
         private static extern void Sleep(int dwMilliseconds);
 
+        void Action()
+        {
+            for (int i = 0; i < loop; i++)
+            {
+                p += Codec(message, overHead);
+            }
+        }
+
+        int get()
+        {
+            return p;
+        }
+
+
         static void Main(string[] args)
         {
             int overHead = 0;
-            int total = 10;
-
+            int total = 100;
+            int threadNum = 2;
             if (args.GetLength(0) >= 2)
             {
                 total = int.Parse( args[0] );
                 overHead = int.Parse( args[1] );
             }
+
+            if (args.GetLength(0) >= 3)
+            {
+                threadNum = int.Parse(args[2]);
+            }
+
 
             int C = 200;
 
@@ -110,25 +143,40 @@ namespace NaiveTest
 
             float p = 0;
 
-            #if (DEBUG)
+#if (DEBUG)
             DateTime Start = DateTime.Now;
-            #endif
+#endif
 
-            for (int i = 0; i < total; i++)
+            Thread[] threadPool = new Thread[threadNum];
+            LT[] LTPool = new LT[threadNum];
+            int loop = total / threadNum;
+            for (int i = 0; i < threadNum; i++)
             {
-                p += (float) Codec(sentMessage, overHead);
+                LTPool[i] = new LT(sentMessage, overHead, loop);
+                threadPool[i] = new Thread(new ThreadStart(LTPool[i].Action));
+                threadPool[i].Start();
             }
 
-            #if (DEBUG)
+            for (int i = 0; i < threadNum; i++)
+            {
+                threadPool[i].Join();
+            }
+
+            for (int i = 0; i < threadNum; i++)
+            {
+                p += LTPool[i].get();
+            }
+
+            p /= ((float)total);
+            Console.WriteLine("Probability {0}%", p * 100);
+
+
+#if (DEBUG)
             TimeSpan Elapsed = DateTime.Now - Start;
             Console.WriteLine("Time Elapsed: {0} s", Elapsed.TotalSeconds);
-            #endif
 
-            p /= ((float) total);
-            Console.WriteLine("Probability {0}%", p * 100);
-            #if (DEBUG)
             Console.ReadKey();
-            #endif
+#endif
         }
     }
 }
