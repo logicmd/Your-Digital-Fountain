@@ -1,0 +1,1 @@
+..\NaiveTest.exe 1000 3 > .\txt\3.txt

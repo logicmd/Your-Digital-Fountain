@@ -1,0 +1,9 @@
+*/obj/*
+*/bin/*
+/TestResults/
+*.exe
+*.dll
+*.pdb
+
+#!NaiveTest/bin/Release/py/
+#!*.py

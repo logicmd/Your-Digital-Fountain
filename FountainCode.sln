@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBB4B41F-FAFC-4A2F-A613-0C144326E91E}"
 	ProjectSection(SolutionItems) = preProject
 		FountainCode.vsmdi = FountainCode.vsmdi
@@ -35,6 +35,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MathHelper", "MathHelper", "{080F1E77-E9A3-400D-9B50-C970FD10C545}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolver.Implementation", "EquationSolver.Implementation\EquationSolver.Implementation.csproj", "{D2D47D88-7145-4BFC-BB97-F1B90002A58B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NaiveTest", "NaiveTest\NaiveTest.csproj", "{41DCDDB4-819A-4D89-AC42-835864BD76BD}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -139,6 +141,16 @@ Global
 		{D2D47D88-7145-4BFC-BB97-F1B90002A58B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{D2D47D88-7145-4BFC-BB97-F1B90002A58B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{D2D47D88-7145-4BFC-BB97-F1B90002A58B}.Release|x86.ActiveCfg = Release|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +159,7 @@ Global
 		{D2330E03-9051-465F-A95A-BBA5E46A4061} = {5E8974D5-0FAB-45AD-8723-0C89207DD6FB}
 		{148C426A-CB56-421C-9152-DCF97D4FC3FC} = {5E8974D5-0FAB-45AD-8723-0C89207DD6FB}
 		{36EBF6B2-1CB5-44CB-8838-804D4146280F} = {5E8974D5-0FAB-45AD-8723-0C89207DD6FB}
+		{41DCDDB4-819A-4D89-AC42-835864BD76BD} = {5E8974D5-0FAB-45AD-8723-0C89207DD6FB}
 		{324E6360-6F02-4CEB-968C-A1B93E4E0A3A} = {542E864B-2D71-4AB2-9649-B604E3282A29}
 		{3FFC0AC7-35D4-464C-BAE8-E7E922698515} = {881FB2C0-72DA-4611-99D4-C62C193F455F}
 		{2FC4D195-386F-44CC-8040-B3933BFBD24C} = {881FB2C0-72DA-4611-99D4-C62C193F455F}
