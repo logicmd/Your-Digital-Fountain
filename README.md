@@ -1,5 +1,3 @@
-Forked from ```Your-Digital-Fountain```
-
 NativeTest
 ==========
 Testbed for my experiment.
@@ -11,3 +9,7 @@ Implementation of Luby transform Code in C#, with Demo application in WPF and WC
 
 for more info visit:
 http://www.codeproject.com/Articles/425456/Your-Digital-Fountain
+
+## Notice
+
+You have to run server as Administrator to get priviledge.

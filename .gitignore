@@ -4,6 +4,6 @@
 *.exe
 *.dll
 *.pdb
-
+*.bat
 #!NaiveTest/bin/Release/py/
 #!*.py

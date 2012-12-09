@@ -123,8 +123,9 @@ namespace NaiveTest
         static void Main(string[] args)
         {
             int overHead = 0;
-            int total = 100;
-            int threadNum = 2;
+            int total = 50;
+            int threadNum = 1;
+            int C = 1000;
             if (args.GetLength(0) >= 2)
             {
                 total = int.Parse( args[0] );
@@ -136,8 +137,10 @@ namespace NaiveTest
                 threadNum = int.Parse(args[2]);
             }
 
-
-            int C = 200;
+            if (args.GetLength(0) >= 4)
+            {
+                C = int.Parse(args[3]);
+            }
 
             String sentMessage = initMsg(C);
 
@@ -150,6 +153,10 @@ namespace NaiveTest
             Thread[] threadPool = new Thread[threadNum];
             LT[] LTPool = new LT[threadNum];
             int loop = total / threadNum;
+            if (total != loop * threadNum)
+            {
+                total = loop * threadNum;
+            }
             for (int i = 0; i < threadNum; i++)
             {
                 LTPool[i] = new LT(sentMessage, overHead, loop);

@@ -1,1 +1,1 @@
-..\NaiveTest.exe 1000 5 > .\txt\5.txt
+..\..\bin\Release\NaiveTest.exe 1200 5 24 1000 > .\txt\5.txt
