@@ -123,9 +123,9 @@ namespace NaiveTest
         static void Main(string[] args)
         {
             int overHead = 0;
-            int total = 50;
+            int total = 1;
             int threadNum = 1;
-            int C = 1000;
+            int C = 5000;
             if (args.GetLength(0) >= 2)
             {
                 total = int.Parse( args[0] );
